@@ -11,6 +11,10 @@ const Home = () => {
       { error && <div>{ error }</div> }
       { isPending && <div>Loading...</div> }
       { blogs && <BlogList blogs={blogs} /> }
+      <br/>
+      <br/>
+      <br/>
+      <h4>ckeck out this quest and suport this site: <br/>https://amzn.to/39kcpMY</h4>
     </div>
   );
 }
